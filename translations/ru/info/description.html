@@ -1,0 +1,56 @@
+<img class="for_info_only half" title="mirror" src="{{MEDIA}}mirror.png" alt="mirror" style="float: left;"/>
+
+
+<p>
+    Продолжим изучение слов.
+    Даны две строки со словами, разделенными запятыми.
+    Попробуйте найти что общего между этими строками.
+    Слова внутри каждой строки не повторяются.
+</p>
+
+<p>
+    Ваша функция должна находить все слова, которые появляются в обеих строках.
+    Результат должен быть представлен, как строка со словами разделенными запятыми и отсортированными в <strong>алфавитном
+    порядке.</strong>
+</p>
+
+
+<p>
+    <strong>Вх. данные: </strong> Два аргумента как строки (str).
+</p>
+
+<p>
+    <strong>Вых. данные: </strong> Общие слова как строка (str).
+</p>
+
+
+<div class="for_info_only">
+    <p>
+        <strong>Примеры:</strong>
+    </p>
+    <pre class="brush: python">{% if interpreter.slug == "js-node" %}
+commonWords("hello,world", "hello,earth") == "hello"
+commonWords("one,two,three", "four,five,six") == ""
+commonWords("one,two,three", "four,five,one,two,six,three") == "one,three,two"
+{% else %}
+checkio("hello,world", "hello,earth") == "hello"
+checkio("one,two,three", "four,five,six") == ""
+checkio("one,two,three", "four,five,one,two,six,three") == "one,three,two"
+{% endif %}</pre>
+</div>
+
+<p class="for_info_only">
+    <strong>Как это используется: </strong>
+    В этой задаче вы попрактикуетесь в работе с наборами и строками.
+    И эти навыки будут полезными для лингвистического анализа.
+</p>
+
+
+<p>
+    <strong>Предусловия: </strong><br>
+    Каждая строка содержит не более 10 слов.<br>
+    Все слова разделены запятыми.<br>
+    Все слова состоят только из латинских букв в нижнем регистре.
+
+
+</p>
