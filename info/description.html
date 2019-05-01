@@ -32,9 +32,9 @@ commonWords("hello,world", "hello,earth") == "hello"
 commonWords("one,two,three", "four,five,six") == ""
 commonWords("one,two,three", "four,five,one,two,six,three") == "one,three,two"
 {% else %}
-checkio("hello,world", "hello,earth") == "hello"
-checkio("one,two,three", "four,five,six") == ""
-checkio("one,two,three", "four,five,one,two,six,three") == "one,three,two"
+common_words("hello,world", "hello,earth") == "hello"
+common_words("one,two,three", "four,five,six") == ""
+common_words("one,two,three", "four,five,one,two,six,three") == "one,three,two"
 {% endif %}</pre>
 </div>
 

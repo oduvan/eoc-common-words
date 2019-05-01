@@ -10,9 +10,9 @@ class Referee(RefereeRank):
     TESTS = TESTS
     ENVIRONMENTS = settings_env.ENVIRONMENTS
 
-    DEFAULT_FUNCTION_NAME = "checkio"
+    DEFAULT_FUNCTION_NAME = "common_words"
     FUNCTION_NAMES = {
-        "python_3": "checkio",
+        "python_3": "common_words",
         "js_node": "commonWords"
     }
     ENV_COVERCODE = {
