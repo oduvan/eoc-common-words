@@ -4,6 +4,7 @@ requirejs(['ext_editor_io', 'jquery_190'],
         var $tryit;
 
         var io = new extIO({
+            multipleArguments: false,
             functions: {
                 js: 'commonWords',
                 python: 'common_words'
