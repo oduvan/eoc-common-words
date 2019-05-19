@@ -1,14 +1,14 @@
-"use strict";
 
-function commonWords(first, second) {
+export function commonWords(first: string, second: string): string {
     return "";
 }
 
-var assert = require('assert');
+import * as assert from 'assert';
 
-if (!global.is_checking) {
-    assert.equal(commonWords("hello,world", "hello,earth"), "hello", "Hello");
-    assert.equal(commonWords("one,two,three", "four,five,six"), "", "Too different");
-    assert.equal(commonWords("one,two,three", "four,five,one,two,six,three"), "one,three,two", "1 2 3");
-    console.log("Coding complete? Click 'Check' to review your tests and earn cool rewards!");
-}
+console.log('Example')
+console.log(commonWords("hello,world", "hello,earth"))
+
+assert.equal(commonWords("hello,world", "hello,earth"), "hello");
+assert.equal(commonWords("one,two,three", "four,five,six"), "");
+assert.equal(commonWords("one,two,three", "four,five,one,two,six,three"), "one,three,two");
+console.log("Coding complete? Click 'Check' to review your tests and earn cool rewards!");
